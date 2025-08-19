@@ -63,7 +63,7 @@ nav ul li a:hover { color: #4A6CF7; }
 
 .hero h1 {
   font-size: 4rem;
-  color: #4A6CF7;
+  color: #333333;
   animation: glow 2s infinite alternate;
 }
 
@@ -177,3 +177,4 @@ footer {
   0% { opacity: 0; transform: translateY(40px); }
   100% { opacity: 1; transform: translateY(0); }
 }
+
