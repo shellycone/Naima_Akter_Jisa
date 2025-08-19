@@ -10,6 +10,7 @@ body {
   color: #333;
   line-height: 1.6;
 }
+
 header {
   position: sticky;
   top: 0;
@@ -57,18 +58,18 @@ nav ul li a:hover { color: #4A6CF7; }
   padding: 0 20px;
 }
 
-.hero h1{
+.hero h1 {
   font-size: 4rem;
-  color: #4A6CF7;
   animation: glow 2s infinite alternate;
 }
 
-/* #hi{
-  font-size: 4rem;
+.hero h1 .hi-text {
   color: #333333;
-} */
+  font-weight: 500;
+}
 
-.hero h1 span {
+.hero h1 .name-text {
+  color: #4A6CF7;
   font-weight: 700;
 }
 
@@ -111,6 +112,7 @@ section h2 {
   margin-bottom: 30px;
   color: #4A6CF7;
 }
+
 .edu-card, .achieve-card {
   background: #fff;
   max-width: 600px;
@@ -143,7 +145,6 @@ section h2 {
 
 .skill:hover { transform: translateY(-5px); }
 
-/* ===== Contact ===== */
 .contact p { font-size: 1.2rem; text-align: center; margin: 10px 0; }
 .contact i { margin-right: 8px; color: #4A6CF7; }
 .contact-icons { text-align: center; margin-top: 15px; }
@@ -163,6 +164,7 @@ footer {
   margin-top: 40px;
 }
 
+/* ===== Animations ===== */
 @keyframes glow {
   0% { text-shadow: 0 0 10px #4A6CF7; }
   100% { text-shadow: 0 0 25px #4A6CF7; }
